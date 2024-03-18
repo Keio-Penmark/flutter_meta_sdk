@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
   s.static_framework = true
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '16.3.0'
-  s.dependency 'FBSDKCoreKit_Basics', '16.3.0'
-  s.dependency 'FBAEMKit', '16.3.0'
+  s.dependency 'FBSDKCoreKit', '16.3.1'
+  s.dependency 'FBSDKCoreKit_Basics', '16.3.1'
+  s.dependency 'FBAEMKit', '16.3.1'
   s.dependency 'FBAudienceNetwork', '6.14.0'
   s.platform = :ios, '10.0'
 
